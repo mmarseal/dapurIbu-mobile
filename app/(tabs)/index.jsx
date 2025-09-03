@@ -100,7 +100,6 @@ export default function Home() {
           />
           <View style={styles.userDetails}>
             <Text style={styles.username}>{item.user.username}</Text>
-            <Text style={styles.date}>{formatDate(item.createdAt)}</Text>
           </View>
         </View>
       </View>

@@ -95,14 +95,14 @@ export default function Profile() {
   };
 
   // Format date helper
-  const formatDate = (dateString) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("id-ID", {
-      day: "numeric",
-      month: "short",
-      year: "numeric",
-    });
-  };
+  // const formatDate = (dateString) => {
+  //   const date = new Date(dateString);
+  //   return date.toLocaleDateString("id-ID", {
+  //     day: "numeric",
+  //     month: "short",
+  //     year: "numeric",
+  //   });
+  // };
 
   const renderRecipeItem = ({ item }) => (
     <View style={styles.bookItem}>
@@ -129,7 +129,7 @@ export default function Profile() {
           </Text>
         )}
 
-        <Text style={styles.bookDate}>{formatDate(item.createdAt)}</Text>
+        {/* <Text style={styles.bookDate}>{formatDate(item.createdAt)}</Text> */}
       </View>
 
       <TouchableOpacity
