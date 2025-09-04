@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+# Mobile App — dapurIbu
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+DapurIbu Mobile is a React Native application built with Expo, designed to provide a seamless experience for users in discovering, managing, and sharing home-cooked recipes. This project serves as the mobile client for the **DapurIbu ecosystem**, connected with the backend API.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
+- 🍳 View detailed cooking steps and ingredients  
+- 👩‍🍳 Manage user profiles and saved recipes  
+- 🔐 Authentication & secure user session handling  
+- 📱 Responsive UI with modern and simple design  
 
-   ```bash
+---
+
+## 🛠️ Tech Stack
+- [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/)
+- [Zustand] (state management)  
+- [Fetch API] (for API requests)  
+- [Styled Components] (styling)  
+
+---
+
+## ⚙️ Local Setup
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/mmarseal/mobile-dapurIbu.git
+   cd mobile-dapurIbu
+   ```
+
+2. Install dependencies:
+
+   ```
    npm install
    ```
 
-2. Start the app
+3. Start the development server:
 
-   ```bash
+   ```
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Open on your device:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   * Scan QR code with **Expo Go** app (Android / iOS)
+   * Or run on emulator (Android Studio / Xcode)
+   * Install [Expo Go](https://expo.dev/go)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🌐 Live Preview
 
-When you're ready, run:
+This project is published via **Expo EAS Update**.
 
-```bash
-npm run reset-project
-```
+* **Expo Project Page:** [dapurIbu Mobile](https://expo.dev/accounts/marseal/projects/mobile/updates/592b956f-7d4d-43ac-8b2d-c61c5162c928)
+* **QR Code:** *(scan with Expo Go)*
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+![Image](https://github.com/user-attachments/assets/8f68a3f5-dc50-4438-9a81-c52bd05f11aa)
 
-## Learn more
+* **APK Download (for Android):** [Download APK](https://drive.google.com/file/d/1mLdMSLxZQgw9vvhBSdFIcEVjRdYhYAaf/view?usp=sharing)
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🔗 Backend API
 
-## Join the community
+This app connects to the backend service here:
 
-Join our community of developers creating universal apps.
+[BE-dapurIbu](https://github.com/mmarseal/BE-dapurIbu)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
